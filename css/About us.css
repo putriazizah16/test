@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap'); /* this is a specialize font that we get from google and applied to most of the text */
+
+
+* { /*this css aplies to all the elements */
+margin: 0;
+padding: 0;
+}
+
+#content { /*this element just increases padding */
+    padding : 10%;
+
+}
+
+#menu { /* For the Navigational Menu */
+    padding: 0;
+    background: #FE1414;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 2;
+}
+
+#menu ul {
+    position: relative;
+    left: 80%;
+}
+
+#menu ul li{
+    color: #E9E90D;
+    display: inline-block;
+    padding: 0.6%;
+}
+
+#menu ul li a{ /* Affects the looks of the links, any property in relation to the links can be changed here */
+    text-decoration: none;
+    color: #E9E90D;
+    font-family: 'Pacifico', cursive;
+    border-radius: 1%;
+}
+
+#wrap
+{ /* Main purpose to contain the divs with left and right Id but can still be used for other purposes*/
+    margin: 10% auto 10% auto;
+    padding: 30px;
+    background: #FFF8DC;
+    border: 7px solid black;
+
+}
+
+.left { /* content box that we place on the left, was meant to be inside a div equipped with the wrap id but you can probally have it as a child of the body element */
+    margin: 0;
+    padding: 0px;
+    padding-right: 80px;
+    width: 400px;
+    height: 600px;
+    background-color: #90EE90;
+    display: inline-block;
+    text-align: center;
+    z-index: 0;
+}
+
+
+.left h3 {
+    margin: 60px;
+    height: 50px;
+    line-height: 30px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+.left p {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img.left {
+    height: 200px;
+    width: 50px; 
+    margin-left: 5%;
+    padding-left: 5px;
+}
+
+.right { /* content box for div that is meant to be located on mostly the right position of the div tag or the parent tag */
+display: inline-block;
+width: 400px;
+position: relative; /* position type can be changed but it will mess with the position of this div and may even interfer or overlap with the banner */
+left: 230px;
+bottom: 500px;
+text-align: center;
+padding: 100px;
+margin-top: 10px;
+margin-left: 20%;
+font-family: sans-serif;
+border: 2px solid aquamarine;
+background-color: azure;
+z-index: 0;
+}
+
+.right h1 {
+font-size: 80px;
+font-weight: 100;
+padding: 30px;
+}
+
+.right p {
+    font-size: 20px;
+}
+
+#footer { /* For the footer at the bottom of the page*/
+    background-color: #FE1414;
+    height: 100px;
+    padding: 1%;
+    font-size: 12px;
+    font-family: 'Pacifico', cursive;
+}

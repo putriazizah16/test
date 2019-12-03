@@ -1,0 +1,44 @@
+/*all of this css is suitable for using element div and span*/
+#bannerpic{ /*this css is for pic in top, this is primary image in page*/
+    width: 80%;
+    height: auto;
+}
+#healthtitle p{ /*this css is for element "p" in title, title for page*/
+    margin-top: -30px;
+    font-size: 45px;
+}
+.contenttitle{ /*this css is for content title news or info, this is mark for 2 side*/
+    width: 45%;
+    height: 20px;
+    color: orange;
+    float: left;
+}
+#fill{ /*this css is for filling in top info or top news or lastest news */
+    float: left;
+    width: 45%;
+    height: 250px;
+}
+.imageco{ /*this css is for set image into a right size, use for image in content*/
+    height: 150px;
+    width: auto;
+    margin-top: 20px;
+}
+#left .imageco{/*this css is for spesific image in left side, it hava same css from .imageco, the different is just for margin*/
+    margin-left: 50px;
+}
+.list{ /*this css is for list news or info*/
+    float: left;
+    width: 45%;
+    margin-top: 40px
+}
+#colorbg{ /*this css is for coloring background for lastest news and set position*/
+    margin-left: 5px;
+    width: 90%;
+    background-color: #5050f0;
+}
+.list p{ /*this css is for coloring paragraph in list section*/
+    color: white;
+}
+#pleft{  /*this css is for coloring specific paragraph inside list or you can using this css anywhere*/
+    color: black;
+}

@@ -1,0 +1,16 @@
+.main{
+	padding: 40px;
+    margin: auto;
+    width: 50%;
+    color: black;
+    border: 1px solid #2d2d2d2d;
+    font-size: 15px
+}
+
+#isi_main{
+    text-align: center;
+    padding: 5px;
+}
+a{
+    color: black
+}

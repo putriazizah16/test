@@ -1,0 +1,21 @@
+div.gambar img { /* this css is for first picture */
+        width : 1000px;
+        height : 450px;
+        display: block;
+        margin-left : auto;
+        margin-right: auto;
+        }
+
+div.gambar1 img { /* this css is for detail image female outfit trendy */
+        width : 190px;
+        height : 190px;
+        float : left;
+        margin : 15px;
+        }
+
+div.gambar2 img { /* this css is for detail image male outfit trendy */
+        width : 190px;
+        height : 190px;
+        float : left;
+        margin : 15px;
+        }

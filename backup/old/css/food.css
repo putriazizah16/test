@@ -1,0 +1,53 @@
+.square1 { /*this css is for square in left of page and suitable for div*/
+    background-color: aquamarine;
+    height: 550px;
+    width: 150px;
+    color: darkblue;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+}
+
+div.square1 img { /*this css is for image inside the square in left of page*/
+    width: 120px;
+    height: 420px;
+}
+
+.square2 { /*this css is for square in center of page and suitable for div*/
+    background-color: cadetblue;
+    float: left;
+    width: 970px;
+    height: 550px;
+    margin: 10px;
+    text-align: center;
+}
+
+.square2 p { /*this css is for paragraph inside the square in center of page*/
+    font-size: 20px;
+}
+.square2 h1 { /*this css is for first header inside the square in center of page*/
+    font-size: 70px;
+    color: azure;
+}
+
+.square2 h2 { /*this css is for second header inside the square in center of page*/
+    font-size: 70px;
+    color: azure;
+}
+
+.square3 { /*this css is for square in right of page and suitable for div*/
+    float: left;
+    margin-top: 10px;
+    width: 150px;
+    height: 550px;
+    background-color: aquamarine;
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+}
+
+div.square3 img { /*this css is for image inside the square in right of page*/
+    width: 120px;
+    height: 400px;
+}

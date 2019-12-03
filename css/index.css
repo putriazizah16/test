@@ -1,0 +1,38 @@
+#container {
+	margin: 3% auto 3% auto;
+	background-color: white;
+	width: 95%;
+}
+#container h1 {
+	text-align: center;
+}
+
+.content {
+    /* this is for the blocks or columns where you put the main content of the page */
+	background: #E9E2E1; 
+	/* max-width: 95%; */
+	width: 94%;
+	margin: 1%;
+	padding: 2%;
+	display: inline-block;
+}
+
+.content p {
+	/* font-family: 'Pacifico', cursive; */
+	font-size: 15px;
+}
+.content li {
+	/* font-family: 'Pacifico', cursive; */
+	font-size: 20px;
+	margin: 20px;
+}
+.content h2 {
+	/* font-family: 'Pacifico', cursive; */
+	margin-bottom: 10px;
+}
+
+.content img {
+    /* you can modify your image here */
+	max-width: 100%;
+	display: inline-block;
+}

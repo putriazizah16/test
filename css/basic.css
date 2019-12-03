@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap'); /* this is a specialize font that we get from google and applied to most of the text */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); /* this is a specialize font that we get from google and applied to most of the text */
+
+* { /*this css aplies to all the elements */
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+body { /*this one is for the body*/
+	/* background: #F8A39A; */
+	background: #FF679A;
+}
+
+#menu { /*this is where you put the menu */
+	padding: 0;
+	background: #FE1414;
+	/*position: fixed; */
+	top: 0%;
+	margin-bottom: ;
+	width: 100%;
+    /* z-index: 5; */
+}
+
+#menu ul {
+	position: relative;
+	/* left: 80%; */
+}
+
+#menu ul li{
+	color: #E9E90D;
+	display: inline-block;
+	padding: 0.5%;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	/* color: #E9E90D; */
+	color: #000000;
+	/* font-family: 'Pacifico', cursive; */
+	border-radius: 1%;
+}
+
+/* #menu ul li a:hover{
+	background-color: #a72828;
+} */
+
+#header { /* this is for the banner and header */
+	padding: 7%;
+	/* background: #E9E2E1 url("../img/banner.png"); /*you can change the banner background */
+	background-image: url("../image/banner.png");
+	background-size: cover;
+	background-position-y: -100px;
+	resize: both;
+	font-size: 40px;
+	text-align: center;
+	/* font-family: 'Pacifico', cursive; */
+	border-style: solid;
+	border-width: 10px;
+	border-color: #2FCBDF;
+	border-radius: 1%;
+}
+
+#header h1 {
+    /*you can modify the banner text here */
+	/* color: #BC1212; */
+	color: #ed2654;
+	/* text-shadow: 9px 9px 10px #FF7C7C; */
+}
+
+#footer { 
+    /* for the footer div of the very bottom section of the page */
+	background-color: #FE1414;
+	/* height: 100px; */
+	height: 25px;
+	padding: 1%;
+	font-size: 12px;
+	/* font-family: 'Pacifico', cursive; */
+   	color: white;
+   	text-align: center;
+}
+
+#footer a{ 
+	text-decoration: none;
+	text-align: right;
+}

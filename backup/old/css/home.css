@@ -1,0 +1,42 @@
+.box_headline{ /* base box for the headline recommended if you want to create a homepage like a news website*/
+    padding: 20px;
+    background-color: #5050F0;
+    color: white;
+    position: relative;
+    margin: 10px;
+    float: left;
+    width: 70%;
+    border: 1px solid #a8a8a8;
+}
+.box_headline p{    /* style for <p> inside the box headline */
+    font-size: 15px;
+    padding: 30px;
+}
+.box_headline a{ /* style for <a> inside the box headline*/
+    color: white
+}
+.box_samping{   /* style for the right side box, recommended for top posts list */
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    width: 20%;
+    color: black;
+    border: 1px solid #2d2d2d2d;
+    font-size: 15px
+}
+#box_samping_inside{    /* style for the content inside the right side box */
+    text-align: center;
+    background-color: #1fac96;
+    padding: 5px;
+    border-bottom:  3px solid #178170;
+}
+li{ /* style for <li> to create a margin on the bottom of the text */
+    margin-bottom: 20px;
+}
+img{ /* style for image for the illustration post */
+    width: 250px;
+    height: 140;
+    float: left;
+    margin-right: 15px;
+    padding: 10px;
+}

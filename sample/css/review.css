@@ -1,0 +1,101 @@
+/* @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap'); */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+	background: #F8A39A;
+}
+h1{
+	color: black;
+	text-shadow: 9px 9px 10px grey;
+	/* font-family: 'Pacifico', cursive; */
+}
+h4{
+	text-align:justify;	
+
+}
+
+#menu { /*this is where you put the navigation menu */
+	padding: 0;
+	background: #FE1414;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+    z-index: 5;/*   z-index decidees how much an element stands out, the higher the value the more it will overlap elements that happens to cross its boundaries   */
+}
+
+#menu ul {
+	position: relative;
+	left: 80%;
+}
+
+#menu ul li{
+	color: #E9E90D;
+	display: inline-block;
+	padding: 0.6%;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: #E9E90D;
+	font-family: 'Pacifico', cursive;
+	border-radius: 1%;
+}
+
+/* the "hover" element property below only take effect once you point at one of the navigation links, otherwise if you dont it is gonna look like its normal state */
+#menu ul li a:hover{
+    background-color: #a72828;
+	
+}
+
+#header { /* For the Banner on top of the page */
+	padding: 7%;
+	background: #E9E2E1 url("Beach.jfif") no-repeat;
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #2FCBDF;
+	border-radius: 1%;
+}
+
+#header h1 { /* Affects any h1 element under the div with the header id */
+	color: #BC1212;
+	text-shadow: 9px 9px 10px #FF7C7C;
+}
+
+#container { /* wraps all the element and puts them under one box */
+	margin: auto auto 3% auto;
+	background-color: white;
+	width: 75%;
+	padding: 0;
+}
+
+.content { 
+	background: #E9E2E1; 
+	max-width: 100%;
+	margin: 4%;
+	padding: 2%;
+	border: 1;
+	display: inline-block;
+	font-family: arial;
+	text-align:center;
+	
+}
+
+.content img { /* images property can be used repeatedl */
+	max-width: 100%;
+	display: inline-block;
+}
+
+#footer { /* for the footer at the very bottom of the page */
+	background-color: #FE1414;
+	height: 100px;
+	padding: 1%;
+	font-size: 12px;
+	font-family: 'Pacifico', cursive;
+}

@@ -1,0 +1,35 @@
+h1{
+	color: black;
+	/* text-shadow: 9px 9px 10px grey; */
+	/* font-family: 'Pacifico', cursive; */
+}
+
+/* h4{
+	text-align:justify;	
+}*/
+
+#container { /* wraps all the element and puts them under one box */
+	margin: auto auto 3% auto;
+	background-color: white;
+	width: 75%;
+	padding: 0;
+}
+
+.content { 
+	/*background: #E9E2E1;*/
+    background: #ADFF2F; /*this is new style, change color of content's background*/
+	/*max-width: 100%;*/
+    width: 89%; /*this is new style, change width of each square of content*/
+	margin: 4%;
+	padding: 2%;
+	border: 1;
+	display: inline-block;
+	font-family: arial;
+	text-align:center;
+	
+}
+
+.content img { /* images property can be used repeatedl */
+	max-width: 100%;
+	display: inline-block;
+}

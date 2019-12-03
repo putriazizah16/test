@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+	background: #F8A39A;
+}
+
+p{
+    font-family: 'Pacifico'
+}
+
+#menu {
+	padding: 0;
+	background: #FEFBFB;
+	position: fixed;
+	top: 0%;
+	width: 100%
+}
+
+#menu ul {
+	position: relative;
+	left: 80%;
+}
+
+#menu ul li{
+	display: inline-block;
+	padding: 0.6%;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Pacifico', cursive;
+	border-radius: 1%;
+}
+
+#header {
+	padding: 7%;
+	background: #E9E2E1 url("Beach.jfif") no-repeat;
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #2FCBDF;
+	border-radius: 1%;
+}
+
+#header h1 {
+	color: #BC1212;
+	text-shadow: 9px 9px 10px #FF7C7C;
+}
+
+#container {
+	margin: 3% auto 3% auto;
+	background-color: white;
+	width: 60%;
+	padding: 0;
+}
+
+.content {
+	background: #E9E2E1; 
+	max-width: 18%;
+	margin: 5%;
+	padding: 2%;
+	border: ;
+	display: inline-block;
+
+}
+
+.content img {
+	max-width: 100%;
+	display: inline-block;
+}
+
+#footer {
+	background-color: #E9E2E1;
+	height: 200px;
+	padding: 1%;
+}
